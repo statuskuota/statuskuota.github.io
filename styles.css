@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&display=swap');
+
+body {
+	font-family: Rajdhani;
+  font-weight: 500;
+}
+
+#maincontainer {
+	width: 400px;
+	height: 100%;
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#headercontainer {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#headertitlecontainer {
+}
+
+#headertitle {
+	text-align: center;
+	font-size: 36px;
+}
+
+#headersubtitlecontainer {
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+
+#subheadertitle {
+	text-align: center;
+	font-size: 24px;
+}
+
+#headernavcontainer {
+}
+
+#headernavtext {
+	font-size: 12px;
+	text-align: center;
+}
+
+#headerblurbcontainer {
+	padding-top: 8px;
+}
+
+#headerblurbtext {
+	font-size: 14px;
+	text-align: center;
+}
+
