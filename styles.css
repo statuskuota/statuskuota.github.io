@@ -2,16 +2,21 @@
 
 body {
 	font-family: Rajdhani;
-  font-weight: 500;
+  font-weight: 400;
   /*color: rgba(235,235,235,1);
   background-color: rgba(20,20,20,1);*/
   color: rgba(20,20,20,1);
-  background-color: rgba(235,235,235,1);
+  background-color: rgba(245,245,245,1);
   letter-spacing: .1em;
 }
 
+a:link {
+  
+  color: inherit;
+}
+
 #maincontainer {
-	width: 400px;
+	width: 600px;
 	height: 100%;
 	display: table;
 	margin-right: auto;
@@ -21,40 +26,41 @@ body {
 #headercontainer {
 	display: table-cell;
 	vertical-align: middle;
+  text-align: center;
 }
 
 #headertitlecontainer {
+  padding-bottom: 8px;
 }
 
 #headertitle {
-	text-align: center;
 	font-size: 42px;
+  font-weight: 500;
 }
 
 #headersubtitlecontainer {
-	padding-bottom: 8px;
-	padding-top: 8px;
+	padding-bottom: 16px;
 }
 
 #subheadertitle {
-	text-align: center;
 	font-size: 24px;
+  color: rgba(50,50,50,1);
 }
 
 #headernavcontainer {
+  padding-bottom: 16px;
 }
 
 #headernavtext {
-	font-size: 12px;
-	text-align: center;
+	font-size: 18px;
+  font-weight: 600;
 }
 
 #headerblurbcontainer {
-	padding-top: 8px;
+	
 }
 
 #headerblurbtext {
-	font-size: 14px;
-	text-align: center;
+	font-size: 12px;
 }
 
