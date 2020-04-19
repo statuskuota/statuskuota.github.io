@@ -1,18 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 
 body {
 	font-family: Rajdhani;
   font-weight: 400;
   /*color: rgba(235,235,235,1);
   background-color: rgba(20,20,20,1);*/
-  color: rgba(20,20,20,1);
-  background-color: rgba(245,245,245,1);
-  letter-spacing: .1em;
+  color: rgba(255,255,255,1);
+  
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(bg2.jpeg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+
+  
 }
 
 a:link {
-  
   color: inherit;
+}
+
+a {
+  text-decoration: none;
 }
 
 #maincontainer {
@@ -30,11 +40,11 @@ a:link {
 }
 
 #headertitlecontainer {
-  padding-bottom: 8px;
+  padding-bottom: 30px;
 }
 
 #headertitle {
-	font-size: 42px;
+	font-size: 40px;
   font-weight: 500;
 }
 
@@ -43,8 +53,8 @@ a:link {
 }
 
 #subheadertitle {
-	font-size: 24px;
-  color: rgba(50,50,50,1);
+  font-family: Cormorant Garamond;
+	font-size: 20px;
 }
 
 #headernavcontainer {
@@ -61,6 +71,7 @@ a:link {
 }
 
 #headerblurbtext {
-	font-size: 12px;
+  font-family: Cormorant Garamond;
+	font-size: 14px;
 }
 
