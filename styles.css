@@ -1,20 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 
 body {
-	font-family: Rajdhani;
-  font-weight: 400;
-  /*color: rgba(235,235,235,1);
-  background-color: rgba(20,20,20,1);*/
+	/*font-family: Rajdhani;*/
   color: rgba(255,255,255,1);
   
   background:
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(bg2.jpeg);
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(bg2.jpeg);
   background-position: center center;
   background-size: cover;
   min-height: 100vh;
-
-  
 }
 
 a:link {
@@ -25,7 +21,11 @@ a {
   text-decoration: none;
 }
 
-#maincontainer {
+a:visited {
+  color: inherit;
+}
+
+#layout {
 	width: 600px;
 	height: 100%;
 	display: table;
@@ -33,45 +33,46 @@ a {
 	margin-left: auto;
 }
 
-#headercontainer {
+#bodycontainer {
 	display: table-cell;
 	vertical-align: middle;
-  text-align: center;
+  text-align: left;
 }
 
-#headertitlecontainer {
-  padding-bottom: 30px;
+#brand {
+  font-family: Arial;
+  font-size: 36px;
+  margin: 0 0 .5em 0;
+}
+#brand2 {
+  font-family: Arial;
+  font-size: 24px;
+  line-height: 1em;
+  margin: 0;
 }
 
-#headertitle {
-	font-size: 40px;
-  font-weight: 500;
-}
-
-#headersubtitlecontainer {
-	padding-bottom: 16px;
-}
-
-#subheadertitle {
+#maincontent {
   font-family: Cormorant Garamond;
-	font-size: 20px;
+  line-height: 1.5em;
 }
 
-#headernavcontainer {
-  padding-bottom: 16px;
+.content-item {
+  margin: 1.5em 0;
+  line-height: 1.5em;
 }
 
-#headernavtext {
-	font-size: 18px;
-  font-weight: 600;
+#description {
+  font-size: 24px;
 }
 
-#headerblurbcontainer {
-	
+#location {
+  font-size: 18px;
+  line-height: 1.8em;
 }
 
-#headerblurbtext {
-  font-family: Cormorant Garamond;
-	font-size: 14px;
+#contact {
+  line-height: 1.5em;
+  font-family: 'IBM Plex Sans';
+  font-size: 12px;
+  font-weight: 300;
 }
-
